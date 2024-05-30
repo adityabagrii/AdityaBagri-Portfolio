@@ -1,0 +1,40 @@
+*{
+    color:grey;
+    margin:0;
+    padding:0;
+}
+
+.Nav{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    /* border:1px solid red; */
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:grey;
+    gap:10%;
+}
+
+button{
+    background-color:transparent;
+    border:none;
+    color:inherit;
+    cursor:pointer;
+    font-size: 1rem;
+    transition: all 0.4s ease;
+}
+
+button:hover{
+    color:white;
+}
+
+.clicked{
+    color:white;
+}
