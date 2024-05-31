@@ -2,9 +2,7 @@ import React, {useState} from 'react'
 import './Navbar.css'
 import './utility.css'
 
-const Navbar = () => {
-    const [about, setAbout] = useState(false);
-    const [contact, setContact] = useState(false);
+const Navbar = ({about, setAbout, contact, setContact}) => {
     const aboutClick = (e) => {
         setAbout(!about);
         setContact(false);

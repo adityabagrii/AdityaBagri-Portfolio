@@ -1,0 +1,47 @@
+.main{
+    transition:all 0.5 ease;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.hidden{
+    display: none;
+}
+
+.side{
+    user-select: none;
+    height:30%;
+    width:100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position:absolute;
+    transition: width 0.5s ease;
+}
+
+.side h1{
+    font-size:3rem;
+    transition: all 0.5s ease;
+}
+
+.side h1:hover{
+    font-size:3.5rem;
+}
+
+.aditya{
+    z-index: 2;
+    background-color: white;
+    color:#191919;
+}
+.webD{
+    z-index: 1;
+    background-color: #191919;
+    color:white;
+}
+.ML{
+    z-index: 0;
+    background-color: white;
+    color:#191919;
+}
