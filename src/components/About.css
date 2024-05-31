@@ -7,6 +7,10 @@
     color:grey;
 }
 
+.hidden{
+    display:none;
+}
+
 .left{
     width:35%;
     display: flex;
@@ -69,5 +73,8 @@
     .subText{
         font-size: 1.8vh;
         line-height: 3vh;
+    }
+    .Links{
+        color:white;
     }
 }

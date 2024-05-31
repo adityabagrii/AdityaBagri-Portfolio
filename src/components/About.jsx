@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 import './About.css'
 
 const About = ({about}) => {
-  console.log(about)
+
   return (
     <div className={about ? 'abtContainer':'hidden'}>
       <div className="left"></div>
       <div className="right">
         <p className="heading">About Me</p>
         <span className='content'>
-        I'm a third-year B.Tech student at IIIT Delhi, majoring in Computer Science with a focus on Artificial Intelligence. With a passion for AI and development, I've dedicated my studies and projects to exploring the frontiers of this exciting field. I'm driven by a relentless curiosity and a commitment.
+        I'm a third-year B.Tech student at IIIT Delhi, majoring in Computer Science with a specialisation in Artificial Intelligence. With a passion for AI and development, I've dedicated my studies and projects to exploring the frontiers of this exciting field. I'm driven by a relentless curiosity and a commitment.
         </span>
         <br />
         <br /><br />
