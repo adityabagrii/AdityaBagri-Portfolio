@@ -26,13 +26,13 @@
 }
 
 .side .title{
-    font-size:3rem;
-    transition: all 0.7s ease;
+    font-size:6vh;
+    transition: all 0.5s ease;
     cursor: pointer;
 }
 
 .title:hover {
-    font-size:3.5rem;
+    font-size:7vh;
 }
 
 .aditya{
@@ -55,4 +55,11 @@
     z-index: 0;
     background-color: #191919;
     color:white;
+}
+
+@media (max-width:900px){
+    .side .title{
+        font-size:4vh;
+        transition:all 0.2s ease;
+    }
 }

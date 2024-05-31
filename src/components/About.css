@@ -25,21 +25,21 @@
     padding-left: 5%;
 }
 .heading{
-    font-size: 3rem;
-    margin:1rem 0rem;
+    font-size: 6vh;
+    margin:2vh 0vh;
     color: white;
 }
 
 .content{
-    font-size: 2rem;
-    line-height: 3rem;
-    margin-bottom: 1rem;
+    font-size: 4vh;
+    line-height: 6vh;
+    margin-bottom: 2vh;
     color: white;
     font-weight: lighter;
 }
 .subText{
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 2.4vh;
+    line-height: 4vh;
     font-weight: lighter;
 }
 
@@ -49,4 +49,25 @@
 }
 .Links:hover{
     color: white;
+}
+
+@media (max-width:900px){
+    .left{
+        display:none;
+    }
+    .right{
+        width:100%;
+        padding:10%;
+    }
+    .heading{
+        font-size: 4vh;
+    }
+    .content{
+        font-size:2.4vh;
+        line-height: 4vh;
+    }
+    .subText{
+        font-size: 1.8vh;
+        line-height: 3vh;
+    }
 }
