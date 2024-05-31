@@ -1,4 +1,4 @@
-.main{
+.main-Home{
     transition:all 0.5 ease;
     overflow-y: hidden;
     justify-content: center;
@@ -28,6 +28,7 @@
 .side .title{
     font-size:3rem;
     transition: all 0.7s ease;
+    cursor: pointer;
 }
 
 .title:hover {

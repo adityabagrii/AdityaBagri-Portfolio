@@ -29,7 +29,7 @@ const Home = ({home}) => {
     }, [isHovering, currentIndex]);
 
     return (
-        <div className={home ? "visible main" : "hidden"}>
+        <div className={home ? "visible main-Home" : "hidden"}>
             <div className="container">
                 <div className="aditya side" style={{width: `${widths[0]}%`}} >
                     <h1 className='title' style={{opacity: `${widths[0]}%`}} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>Aditya Bagri</h1>

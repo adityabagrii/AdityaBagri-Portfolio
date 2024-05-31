@@ -1,7 +1,50 @@
-.main{
+.main-About{
     transition:all 0.5 ease;
-    overflow-y: hidden;
-    justify-content: center;
-    align-items: center;
+    overflow-y: auto;
+    display: flex;
     height: 95vh;
+    /* border: 1px solid red; */
+    color:grey;
+}
+.left{
+    width:35%;
+    /* height: 95vh; */
+    position: absolute;
+}
+.right{
+    padding-left: 43%;
+    padding-top:15%;
+    padding-right: 3%;
+    width: 65%;
+    /* height: 95vh; */
+}
+
+.List{
+    padding-left: 5%;
+}
+.heading{
+    font-size: 3rem;
+    margin:1rem 0rem;
+    color: white;
+}
+
+.content{
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: lighter;
+}
+.subText{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: lighter;
+}
+
+.Links{
+    text-decoration: none;
+    color: inherit;
+}
+.Links:hover{
+    color: white;
 }
