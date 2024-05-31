@@ -1,11 +1,10 @@
 import React from 'react'
 import './About.css'
-import './utility.css'
 
 const About = ({about}) => {
   console.log(about)
   return (
-    <div className={about ? 'main-About':'hidden'}>
+    <div className={about ? 'abtContainer':'hidden'}>
       <div className="left"></div>
       <div className="right">
         <p className="heading">About Me</p>
@@ -173,7 +172,6 @@ const About = ({about}) => {
           <span className="content">Designing & Video Editing</span>
         </div>
       </div>
-      <div className="box"></div>
     </div>
   )
 }

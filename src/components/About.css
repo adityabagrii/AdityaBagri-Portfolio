@@ -1,22 +1,24 @@
-.main-About{
-    transition:all 0.5 ease;
-    /* overflow-y: auto; */
+.abtContainer{
     display: flex;
+    justify-content: center;
+    background-color: #191919;
     height: 95vh;
-    /* border: 1px solid red; */
+    overflow: hidden;
     color:grey;
 }
+
 .left{
     width:35%;
-    /* height: 95vh; */
-    position: absolute;
+    display: flex;
+    height:inherit;
 }
 .right{
-    padding-left: 43%;
-    padding-top:15%;
+    width:65%;
+    padding-top: 15%;
+    padding-left: 10%;
     padding-right: 3%;
-    width: 65%;
-    /* height: 95vh; */
+    padding-bottom: 3%;
+    overflow-y: scroll;
 }
 
 .List{
