@@ -95,6 +95,10 @@ const About = ({about}) => {
           <span className="subText">
             <a href="https://adityabagrii.github.io/AdityaBagri-Portfolio/" className='Links'>Website</a>
           </span>
+          <br />
+          <span className="subText">
+            <a href="https://github.com/adityabagrii/AdityaBagri-Portfolio" className='Links'>GitHub</a>
+          </span>
           <br /><br />
           <span className='content'>Client Side Web Player - Apple Music Clone</span>
           <br></br>
