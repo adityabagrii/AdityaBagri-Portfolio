@@ -66,7 +66,7 @@ const About = ({about}) => {
           <br></br>
           <span className="subText">We created an advanced sales prediction model using historical data to forecast item sales, aiming to boost an e-commerce store's profitability. This innovative tool leverages machine learning to optimize inventory and maximize revenue.</span>
           <br></br>
-          <span className="subText">Project Duration - Jan, 24 - May, 24</span>
+          <span className="subText">Project Duration - January, 2024 - May, 2024</span>
           <br></br>
           <span className="subText">Team Size - 2</span>
           <br />
@@ -78,7 +78,7 @@ const About = ({about}) => {
           <br></br>
           <span className="subText">Developed a custom Memory Management System (MeMS) in C, utilizing mmap and munmap for efficient memory allocation and deallocation.</span>
           <br></br>
-          <span className="subText">Project Duration - Nov, 23 - Nov, 23</span>
+          <span className="subText">Project Duration - November, 2023 - November, 2023</span>
           <br></br>
           <span className="subText">Team Size - 2</span>
           <br />
@@ -86,11 +86,21 @@ const About = ({about}) => {
             <a href="https://github.com/adityabagrii/OS-MeMS-Memory-Management-System" className='Links'>GitHub</a>
           </span>
           <br /><br />
+          <span className='content'>Portfolio Website</span>
+          <br></br>
+          <span className="subText">I designed and developed a sleek, minimalist portfolio website using ReactJS, HTML, and CSS. The website is dynamic, fully responsive, and provides an optimal viewing experience on all devices.</span>
+          <br></br>
+          <span className="subText">Project Duration - June, 2024 - June, 2024</span>
+          <br></br>
+          <span className="subText">
+            <a href="https://adityabagrii.github.io/AdityaBagri-Portfolio/" className='Links'>Website</a>
+          </span>
+          <br /><br />
           <span className='content'>Client Side Web Player - Apple Music Clone</span>
           <br></br>
           <span className="subText">Implemented an online web music player with a responsive client-side front-end that dynamically loads songs and their covers.</span>
           <br></br>
-          <span className="subText">Project Duration - May, 24 - May, 24</span>
+          <span className="subText">Project Duration - May, 2024 - May, 2024</span>
           <br></br>
           <span className="subText">
             <a href="http://amcaditya.freewebhostmost.com" className='Links'>Player</a>
@@ -104,7 +114,7 @@ const About = ({about}) => {
           <br></br>
           <span className="subText">Developed a CLI backend for an online thrift store using SQL and Python, enabling users to buy and sell products. Additionally, implemented a robust transaction system.</span>
           <br></br>
-          <span className="subText">Project Duration - Jan, 24 - May, 24</span>
+          <span className="subText">Project Duration - January, 2024 - May, 2024</span>
           <br></br>
           <span className="subText">Team Size - 2</span>
           <br />
@@ -116,7 +126,7 @@ const About = ({about}) => {
           <br></br>
           <span className="subText">Created an engaging Stick Hero game using JavaFX, Scene Builder, and Java OOP principles. The game features a dynamic background, seamless multithreading, and rigorous JUnit tests to ensure a smooth and captivating player experience.</span>
           <br></br>
-          <span className="subText">Project Duration - Nov, 23 - Nov, 23</span>
+          <span className="subText">Project Duration - November, 2023 - November, 2023</span>
           <br></br>
           <span className="subText">Team Size - 2</span>
           <br />
@@ -128,7 +138,7 @@ const About = ({about}) => {
           <br></br>
           <span className="subText">Built a virtual assembler and simulator for a given ISA using Python programming language with a group of 4 people using GitHub repositories to keep track of updates by all group members</span>
           <br></br>
-          <span className="subText">Project Duration - Apr, 23 - Jun, 23</span>
+          <span className="subText">Project Duration - April, 2023 - June, 2023</span>
           <br></br>
           <span className="subText">Team Size - 4</span>
         </div>
