@@ -10,38 +10,48 @@
     display: none;
 }
 
+.container{
+    height:inherit;
+}
+
 .side{
     user-select: none;
-    height:30%;
+    height:inherit;
     width:100%;
     display: grid;
     place-items: center;
     overflow: hidden;
     position:absolute;
-    transition: width 0.5s ease;
+    transition: width 1s ease;
 }
 
-.side h1{
+.side .title{
     font-size:3rem;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
 }
 
-.side h1:hover{
+.title:hover {
     font-size:3.5rem;
 }
 
 .aditya{
-    z-index: 2;
+    z-index: 3;
     background-color: white;
     color:#212121;
 }
 .webD{
-    z-index: 1;
-    background-color: #212121;
+    z-index: 2;
+    background-color: #191919;
     color:white;
 }
-.ML{
-    z-index: 0;
+.softD{
+    z-index: 1;
     background-color: white;
     color:#212121;
+}
+
+.Ve{
+    z-index: 0;
+    background-color: #191919;
+    color:white;
 }
