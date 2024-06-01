@@ -78,4 +78,7 @@
     .left{
         display:none;
     }
+    .miniMap{
+        display:none;
+    }
 }
