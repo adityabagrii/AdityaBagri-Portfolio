@@ -12,7 +12,7 @@ const About = ({about}) => {
         I'm a third-year B.Tech student at IIIT Delhi, majoring in Computer Science with a specialisation in Artificial Intelligence. With a passion for AI and development, I've dedicated my studies and projects to exploring the frontiers of this exciting field. I'm driven by a relentless curiosity and a commitment.
         </span>
         <br />
-        <br /><br />
+        <br />
         <p className='heading'>Education</p>
         <div className='List'>
           <span className='content'>Indraprastha Institute of Information Technology, Delhi</span>
@@ -41,7 +41,6 @@ const About = ({about}) => {
         </div>
         <br />
         <br />
-        <br />
         <p className='heading'>Skills</p>
         <div className="List">
           <span className="content">Data Structures and Algorithms</span>
@@ -56,7 +55,7 @@ const About = ({about}) => {
           <br />
           <span className="content">Outreach</span>
         </div>
-        <br /><br /><br />
+        <br /><br />
         <p className='heading'>Projects</p>
         <br />
         <span className='content'>I've worked on a variety of projects, ranging from web development to machine learning. Some of my most notable projects include:</span>
@@ -146,6 +145,7 @@ const About = ({about}) => {
           <br></br>
           <span className="subText">Team Size - 4</span>
         </div>
+        <br /><br />
         <p className='heading'>Positions of Responsibilities</p>
         <div className="List">
           <span className="content">Odyssey'24 PR Team Lead</span>
@@ -176,9 +176,9 @@ const About = ({about}) => {
           <br />
           <span className="subText">August, 2023 - September, 2024</span>
         </div>
+        <br /><br />
         <p className='heading'>Interest and Hobbies</p>
         <div className="List">
-          <br />
           <span className="content">Problem-Solving</span>
           <br />
           <span className="content">Development</span>
