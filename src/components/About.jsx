@@ -14,10 +14,10 @@ const About = ({about}) => {
       const scrolledPercent = (scrollTop / (scrollHeight - clientHeight)) * 100;
       document.querySelector('.preview').animate({
         transform: `translateY(${-1*scrolledPercent*0.65}%)`
-      }, {duration:1000, fill: 'forwards'});
+      }, {duration:1200, fill: 'forwards'});
       document.querySelector('.active').animate({
         transform: `translate(-50%, ${scrolledPercent*2.20}%)`
-      }, {duration:1000, fill: 'forwards'});
+      }, {duration:1200, fill: 'forwards'});
     }
 
     const right = document.querySelector('.right');

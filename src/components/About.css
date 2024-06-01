@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #191919;
-    height: 95vh;
+    height: 95dvh;
     color:grey;
     position: relative;
     overflow-y: hidden;
@@ -12,17 +12,6 @@
     display:none;
 }
 
-/* .left{
-    width:35%;
-    display: flex;
-    height:75%;
-    /* justify-content: center; 
-    padding-left: 5%;
-    padding-top:10%;
-    padding-bottom: 3%;
-    line-height: 6vh;
-} */
-
 .miniMap{
     color: grey;
     width: 13%;
@@ -30,10 +19,8 @@
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 12%;
-    /* height:100vh; */
     position: sticky;
     top: 0;
-    /* overflow: scroll; */
 }
 
 .active{
@@ -43,7 +30,7 @@
     transform: translate(-50%, 0%);
     width: 282px;
     height: 228px;
-    border: solid 1px #ffffff50;
+    border: 1.34px solid rgba(255, 255, 255, .2);
     border-radius: 5px;
     mix-blend-mode: difference;
     z-index: 2;
