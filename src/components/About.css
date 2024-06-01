@@ -3,81 +3,79 @@
     justify-content: center;
     background-color: #191919;
     height: 95vh;
-    overflow: hidden;
     color:grey;
+    position: relative;
+    overflow-y: hidden;
 }
 
 .hidden{
     display:none;
 }
 
-.left{
+/* .left{
     width:35%;
     display: flex;
-    height:inherit;
-}
-.right{
-    width:65%;
-    padding-top: 15%;
-    padding-left: 10%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    overflow-y: scroll;
-}
-
-.List{
+    height:75%;
+    /* justify-content: center; 
     padding-left: 5%;
-}
-.heading{
-    font-size: 6vh;
-    margin:2vh 0vh;
-    color: white;
-}
-
-.content{
-    font-size: 4vh;
+    padding-top:10%;
+    padding-bottom: 3%;
     line-height: 6vh;
-    margin-bottom: 2vh;
-    color: white;
-    font-weight: lighter;
+} */
+
+.miniMap{
+    color: grey;
+    width: 13%;
+    padding-bottom: 3%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 12%;
+    /* height:100vh; */
+    position: sticky;
+    top: 0;
+    /* overflow: scroll; */
 }
-.subText{
-    font-size: 2.4vh;
-    line-height: 4vh;
+
+.active{
+    position: fixed;
+    top: 244px;
+    left:14%;
+    transform: translate(-50%, 0%);
+    width: 282px;
+    height: 228px;
+    border: solid 1px #ffffff50;
+    border-radius: 5px;
+    mix-blend-mode: difference;
+    z-index: 2;
+}
+
+.preview{
+    position:absolute;
+    width:38%;
+    transform:translateY(0%);
+}
+
+.headingMini{
+    font-size:6%;
+    color: white;
+}
+
+.contentMini{
+    font-size:3%;
+    color: white;
     font-weight: lighter;
 }
 
-.Links{
-    text-decoration: none;
-    color: inherit;
+.ListMini{
+    padding-left: 2%;
 }
-.Links:hover{
-    color: white;
+
+.subTextMini{
+    font-size:2%;
 }
 
 @media (max-width:900px){
     .left{
         display:none;
-    }
-    .right{
-        width:100%;
-        padding:10%;
-    }
-    .heading{
-        font-size: 4vh;
-    }
-    .content{
-        font-size:2.4vh;
-        line-height: 4vh;
-    }
-    .subText{
-        font-size: 1.8vh;
-        line-height: 3vh;
-    }
-    .Links{
-        color:white;
-    }
-    .List{
-        padding-left: 4%;
     }
 }
