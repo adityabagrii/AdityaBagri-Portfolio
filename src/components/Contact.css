@@ -26,10 +26,12 @@
     margin: 0 10px;
     background-color: #fff;
     box-shadow: 0px 0px 4px #00000027;
-    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
 }
 
 .social-button:hover {
+    width: 52px;
+    height: 52px;
     background-color: #f2f2f2;
     box-shadow: 0px 0px 6px 3px #00000027;
 }
@@ -45,6 +47,7 @@
 
 .mail:hover svg {
     color: #333;
+    height:26px;
 }
 
 .github {
@@ -71,6 +74,7 @@
 
 .linkedin:hover svg {
     fill: #333;
+    height:24px;
 }
 
 .instagram {
@@ -83,6 +87,7 @@
 
 .instagram:hover svg {
     fill: #333;
+    height:26px;
 }
 
 @media (max-width: 524px) {
